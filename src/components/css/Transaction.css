@@ -1,0 +1,31 @@
+.transaction-history li {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+
+    color: #333;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.transaction-history li.plus {
+    border-right: 5px solid #2ecc71;
+}
+
+.transaction-history li.minus {
+    border-right: 5px solid #c0392b;
+}
+
+
+.remove-transaction-btn {
+    border: none;
+    background-color: inherit;
+    color: rgba(0, 0, 0, 0.3);
+
+    cursor: pointer;
+}

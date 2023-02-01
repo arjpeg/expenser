@@ -1,0 +1,35 @@
+.add-expense-form {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    row-gap: 20px;
+}
+
+.add-expense-form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    row-gap: 2px;
+}
+
+.add-expense-form div input {
+    font-family: inherit;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 3px;
+}
+
+
+.submit-btn {
+    background-color: rgb(51 84 255);
+    border: none;
+    border-radius: 10px;
+
+    color: #eee;
+    padding: 10px;
+}
